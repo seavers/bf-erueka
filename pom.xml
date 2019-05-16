@@ -10,7 +10,7 @@
 	<groupId>net.bangfang.eureka</groupId>
 	<artifactId>bf-eureka</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<packaging>jar</packaging>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -58,13 +58,6 @@
 				<configuration>
 					<mainClass>net.bangfang.eureka.Application</mainClass>
 				</configuration>
-				<executions>
-					<execution>
-						<goals>
-							<goal>repackage</goal>
-						</goals>
-					</execution>
-				</executions>
 			</plugin>
 
 			<plugin>
